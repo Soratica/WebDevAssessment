@@ -1,0 +1,5 @@
+RECORD_ID,EMAIL,FIRST_NAME,LAST_NAME,BIRTH_DATE,SENT,SENT_DATE
+123123123,fake_email_1@yahoo.com,Fake,Person,01/01/1972,Y,08/03/2022
+123123124,fake_email_2@gmail.com,Test,Tester,02/02/1984,N,–
+123123125,fake_email_3@aol.com,Noah,Name,03/03/1993,N,–
+123123126,fake_email_4@verizon.net,Shirley,Notreal,04/04/2000,N,–

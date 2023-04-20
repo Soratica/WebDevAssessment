@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %} Title {% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="card mt-3">
+    <div class="card-body">
+      <h4 class="card-title">User Sign Up Form</h4>
+      <p class="card-text">
+        <form method="POST">
+          <div class="row">
+            <div class=" col mb-3">
+              <label for="" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="abc@mail.com" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mb-3">
+              <label for="" class="form-label">First Name</label>
+              <input type="text"
+                class="form-control" name="first_name" id="first_name" placeholder="Enter first name" required>
+            </div>
+            <div class="col mb-3">
+              <label for="" class="form-label">Last Name</label>
+              <input type="text"
+                class="form-control" name="last_name" id="last_name" placeholder="Enter last name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mb-3">
+              <div class="col-lg-3 col-sm-6">
+                <label for="birthdate">Birthday</label>
+                <input id="birthdate" name="birthdate" class="form-control" type="date" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="submit" class="btn btn-primary float-end">Submit</button>
+            </div>
+          </div>
+
+        </form>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
